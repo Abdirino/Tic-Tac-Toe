@@ -45,7 +45,7 @@ function endGame(draw){
     if(draw){
 
     }else{
-        WinnerMsgText.innerHTML = `${oTurn ? "O's" : "X's"} Wins!`
+        WinnerMsgText.innerText = `${oTurn ? "O's" : "X's"} Wins!`
     }
     winningMsg.classList.add('show')
 }
