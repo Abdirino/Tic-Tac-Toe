@@ -49,6 +49,10 @@ function endGame(draw){
     }
     winningMsg.classList.add('show')
 }
+function restart(){
+    winningMsg.classList.remove('show');
+    window.location.reload();
+}
 
 function placeMark(cell, currentClass) {
     cell.classList.add(currentClass)
